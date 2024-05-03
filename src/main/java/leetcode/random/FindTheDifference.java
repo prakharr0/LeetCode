@@ -1,10 +1,10 @@
-package leetcode.easy;
+package leetcode.random;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * LeetCode 389
+ * LeetCode 389: <a href="https://leetcode.com/problems/find-the-difference/description/">Link</a>
  *
  * @author rathi.prakhar@outlook.com
  */
