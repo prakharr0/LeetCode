@@ -10,6 +10,8 @@ package leetcode.random;
  * the string "010" is alternating, while the string "0100" is not.
 
  * Return the minimum number of operations needed to make s alternating.
+ *
+ * @author rathi.prakhar@outlook.com
  */
 public class MinOpertionsBinaryString {
 
