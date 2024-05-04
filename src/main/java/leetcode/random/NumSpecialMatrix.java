@@ -1,4 +1,4 @@
-package leetcode.random.imp;
+package leetcode.random;
 
 /**
  * LeetCode 1582: Special positions in a binary matrix
