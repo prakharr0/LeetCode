@@ -27,7 +27,7 @@ package leetcode.random;
  * 1 <= words[i].length <= 100
  * words[i] consists of lowercase English letters.
  */
-public class MakeStringsEqual {
+public class I_MakeStringsEqual {
 
     /**
      * a character can appear n times in a word. If there are m identical words, the character appears m * n times.
