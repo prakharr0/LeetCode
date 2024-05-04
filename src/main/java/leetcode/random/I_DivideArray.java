@@ -31,6 +31,8 @@ import java.util.Arrays;
  * n is a multiple of 3.
  * 1 <= nums[i] <= 105
  * 1 <= k <= 105
+
+ * @author rathi.prakhar@outlook.com
  */
 public class I_DivideArray {
 
