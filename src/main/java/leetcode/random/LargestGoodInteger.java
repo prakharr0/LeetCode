@@ -21,6 +21,29 @@ package leetcode.random;
  */
 public class LargestGoodInteger {
 
+
+    /**
+     * Compare the last two indicies
+     */
+    public String largestGoodInteger(String num) {
+        if (num == null || num.length() < 3) return "";
+
+        String result = "";
+        int index = 2;
+
+        while (index < num.length()) {
+            if (num.charAt(index) == num.charAt(index-1) &&
+                    num.charAt(index) == num.charAt(index-2) &&
+                    num.substring(index-2, index+1).compareTo(result) > 0) {
+                result = num.substring(index-2, index+1);
+            }
+
+            index++;
+        }
+
+        return result;
+    }
+
     /**
      * Use Sliding Window Protocol.
 
@@ -29,7 +52,7 @@ public class LargestGoodInteger {
 
      * If count == 3, store maxNum in a variable, and compare this num with the max.
      */
-    public String largestGoodInteger(String num) {
+    public String largestGoodIntegerSlidingWindow(String num) {
         if (num == null || num.length() < 3) return "";
 
         int start = 0;
