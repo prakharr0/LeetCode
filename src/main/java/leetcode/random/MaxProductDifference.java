@@ -27,8 +27,10 @@ package leetcode.random;
 public class MaxProductDifference {
 
     /**
+     * If sorted ==> first two and last two. But O(n*log n)
+
      * Keep a track of max1, max2 and min1, min2 for every index
-     *
+     * O(n)
      */
     public int maxProductDifference(int[] nums) {
         if (nums == null || nums.length < 1) return 0;
