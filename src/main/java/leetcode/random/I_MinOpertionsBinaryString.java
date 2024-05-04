@@ -13,7 +13,7 @@ package leetcode.random;
  *
  * @author rathi.prakhar@outlook.com
  */
-public class MinOpertionsBinaryString {
+public class I_MinOpertionsBinaryString {
 
     /**
      * For any given length n, there are only two possibilities: starting with 0 or 1.

@@ -10,7 +10,7 @@ package leetcode.random;
 
  * @author rathi.prakhar@outlook.com
  */
-public class NumSpecialMatrix {
+public class I_NumSpecialMatrix {
 
     /**
      * For every mat[i][j] == 1, there must be exactly one cell in the row i and the column j set to 1.

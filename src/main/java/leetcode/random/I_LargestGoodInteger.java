@@ -19,11 +19,11 @@ package leetcode.random;
  * There may be leading zeroes in num or a good integer.
  *
  */
-public class LargestGoodInteger {
+public class I_LargestGoodInteger {
 
 
     /**
-     * Compare the last two indicies
+     * Compare the last two indices
      */
     public String largestGoodInteger(String num) {
         if (num == null || num.length() < 3) return "";
