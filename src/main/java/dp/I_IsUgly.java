@@ -1,5 +1,9 @@
 package dp;
 
+import java.util.*;
+import java.util.TreeSet;
+
+
 /**
  * LeetCode 263: Ugly number
 
@@ -16,6 +20,7 @@ public class I_IsUgly {
      * find the prime factors.
      */
     public boolean isUgly(int n) {
+
         if (n < 1) return false;
         if (n < 7) return true;
 
